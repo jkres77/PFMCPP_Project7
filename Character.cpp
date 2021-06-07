@@ -7,8 +7,8 @@
 
 Character::Character(int hp, int armor_, int attackDamage_ ) :
     hitPoints(hp),
-    armor(armor_),
-    attackDamage(attackDamage_)
+    attackDamage(attackDamage_),
+    armor(armor_)
 {
     initialHitPoints.reset( new int(hitPoints) );
     initialArmorLevel.reset( new int( armor) );
@@ -87,7 +87,7 @@ int Character::takeDamage(int damage)
 }
 
 
-#include <assert>
+// #include <assert>
 void Character::attackInternal(Character& other)
 {
     if( other.hitPoints <= 0 )

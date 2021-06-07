@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Item.h"
-#include "Character"
+#include "Character.h"
 
 struct AttackItem : Item
 {
