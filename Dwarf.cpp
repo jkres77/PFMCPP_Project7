@@ -12,7 +12,7 @@ name(name_)
 
 const std::string& Dwarf::getName()
 {
-
+    return name;
 }
 
 std::string Dwarf::getStats()

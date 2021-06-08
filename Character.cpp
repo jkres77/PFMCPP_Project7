@@ -6,8 +6,8 @@
 #include "HelpfulItem.h"
 
 Character::Character(int hp, int armor_, int attackDamage_ ) :
-    hitPoints(hp),
     attackDamage(attackDamage_),
+    hitPoints(hp),
     armor(armor_)
 {
     initialHitPoints.reset( new int(hitPoints) );

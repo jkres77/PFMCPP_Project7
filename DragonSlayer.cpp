@@ -14,7 +14,7 @@ name(name_)
 
 const std::string& DragonSlayer::getName()
 {
-
+    return name;
 }
 
 void DragonSlayer::attack(Character& other)
