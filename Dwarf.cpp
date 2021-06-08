@@ -7,7 +7,7 @@ Character(hp_, armor_, attackDamage_),
 name(name_)
 {
     helpfulItems = makeHelpfulItems(3);
-    defensiveItems = makeDefensiveItems(4);
+    defensiveItems = makeDefensiveItems(6);
 }
 
 const std::string& Dwarf::getName()
