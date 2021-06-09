@@ -101,7 +101,6 @@ void Character::attackInternal(Character& other)
 {
     if( other.hitPoints <= 0 )
     {
-        getStats();
         /*
         When you defeat another Character: 
             a) your stats are restored to their initial value if they are lower than it.
