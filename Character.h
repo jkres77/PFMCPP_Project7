@@ -60,10 +60,9 @@ protected:
     std::vector<std::unique_ptr<Item>> helpfulItems;
     int hitPoints, armor;
     bool isDefending = false;
-private:
     int attackDamage;
+private:
     std::unique_ptr<int> initialHitPoints, initialArmorLevel, initialAttackDamage;
-    
     void attackInternal(Character& other);
     // void boostStats(int stat, int& initVal);
 };

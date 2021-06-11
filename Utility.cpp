@@ -104,7 +104,7 @@ void useAttackItem(Character* character, Item* item)
         //so their attack item should boost their attack damage by a factor of 10
         //this means you need to GET the attack damage, multiply it by the item's boost, and BOOST the attackDamage with that multiplied value.  
         //check Character.h for available member functions you can use.
-        ch3->boostAttackDamage(ch3->attackDamage * item->getBoost());
+        ch3->boostAttackDamage(ch3->getAttackDamage() * item->getBoost());
     }
     else if( auto* ch4 = dynamic_cast<Dragon*>(character) )
     {
