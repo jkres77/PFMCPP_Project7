@@ -6,9 +6,9 @@
 #include "HelpfulItem.h"
 
 Character::Character(int hp, int armor_, int attackDamage_ ) :
-    attackDamage(attackDamage_),
     hitPoints(hp),
-    armor(armor_)
+    armor(armor_),
+    attackDamage(attackDamage_)
 {
     initialHitPoints.reset( new int(hitPoints) );
     initialArmorLevel.reset( new int( armor) );
